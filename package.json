@@ -1,9 +1,11 @@
 {
-  "name": "@quazala/os",
+  "name": "@quazala/rabbit",
   "version": "0.0.1",
-  "description": "Quazala redis connector library",
+  "description": "Quazala rabbit connector library",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/main.cjs.js",
   "module": "./dist/main.es.js",
   "exports": {
@@ -22,15 +24,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/quazala/redis.git"
+    "url": "git+https://github.com/quazala/rabbit.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/quazala/redis/issues"
+    "url": "https://github.com/quazala/rabbit/issues"
   },
-  "homepage": "https://github.com/quazala/redis#readme",
+  "homepage": "https://github.com/quazala/rabbit#readme",
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
     "@types/node": "^20.16.3",
